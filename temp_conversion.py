@@ -40,8 +40,9 @@ def hotter_temp():
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
     num = 85.1
     num_2 = (30.2*9/5)+32
+    num_3=30.2
     if num > num_2:
         print(num)
     else:
-        print(num_2)
+        print(num_3)
 hotter_temp()
